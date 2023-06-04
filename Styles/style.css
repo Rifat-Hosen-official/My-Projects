@@ -1,0 +1,60 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+background-color: rgb(134, 133, 240);
+padding: 20px;
+padding-bottom: 70px;
+border-radius: 10px;
+height: 100%;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+.heading-text{
+    text-align: center;
+}
+
+.Text-Customize-Area{
+    background-color: rgb(228, 213, 241);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    height: 300px;
+    width: 750px;
+    box-shadow: #00000059 0px 5px 15px;
+}
+
+button {
+    border: none;
+    color: #131c35;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: transparent;
+    padding: 10px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+button:hover {
+    background-color: #40576d1a;
+}
+button.active {
+    background-color: #73b1e333;
+    color: #5271ff;
+}
+.text{
+    font-weight:bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
